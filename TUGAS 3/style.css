@@ -1,0 +1,280 @@
+html,body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header {
+    border-top: 15px solid #26468F;
+    background-color: #ebebeb;
+}
+.top-header {
+    display: flex;
+    justify-content: end;
+    margin: auto 100px;
+    position: relative;
+}
+.top-header img {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 125px;
+    height: auto;
+}
+.top-header button {
+    background-color: #26468F;
+    width: auto;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+    height: auto;
+    color: white;
+    margin: 25px 0;
+}
+.bot-header {
+    background-color: white;
+}
+
+.bot-header h2 {
+    font-width: 700;
+    font-size: 1.8em;
+}
+.bot-header h4 {
+    font-width: 500;
+    font-size: 1.1em;
+}
+.bot-header h4, .bot-header h2 {
+    margin: 0 250px;
+    color: #26468F;
+}
+/*end*/
+
+/*Slide*/
+.slide {
+    margin-top: 60px;   
+    position: relative;
+}
+.slide img {
+    top: 60px;
+    width: 100%;
+}
+.slide button {
+    position: absolute;
+    margin-top: 350px;
+    right: 110px;
+    border: 0;
+    padding: 10px 50px ;
+    border-radius: 10px;
+    background-color: #26468F;
+    font-weight:bold;
+    font-size: 1.5em;
+    color: white;
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+}
+/*end*/
+
+/*hero*/
+.hero h2 {
+    text-align: center;
+}
+.hero span {
+    color: #26468F;
+}
+/*end*/
+
+/*content*/
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+.info .content{
+    display: flex;
+}
+.info .content:nth-child(1){
+    text-align: right;
+    margin-right: 50px;
+    line-height: 20%;
+}
+.info .content:nth-child(2){
+    text-align: left;
+    margin-right: 50px;
+    line-height: 1.8;
+}
+.info img {
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: 50px;
+}
+.content:nth-child(2) p {
+    margin-top: 5px;
+}
+.content p {
+    width: 500px;
+}
+
+/*end*/
+
+/*about*/
+.about {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f4f7fe;
+    padding: 10px 0px 30px 0px;
+} 
+.about h2 {
+    margin-top: 20px;  
+    text-align: center;
+}
+.about span {
+    color: #26468F;
+}
+.about p {
+    text-align: center;
+}
+.about button {
+    background-color: #26468F;
+    position: relative;
+    margin-top: 30px;
+    left: 577px;
+    width: 340px;
+    outline: none;
+    border: 0px;
+    border-radius: 9px;
+    height: 50px;
+    font-weight:bold;
+    font-size: 1.2em;
+    color: white;
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+}
+/*end*/
+
+form {
+    width: 100%;
+    border-sizing: border-box;
+    background-color: #fefdf9;
+}
+.content2, h1.p{
+    text-align: center;
+}
+.content2 span {
+    color: #26468F;
+}
+.data {
+    width: 900px;
+    margin: 25px auto;
+    display: flex;
+}
+
+.data input[type="text"],
+.data input[type="email"] {
+    width: 70%;
+    display: inline;
+    text-decoration: none;
+    padding: 6px 8px;
+    box-sizing: border-box;
+}
+.data input[type="date"]{
+    width: 65%;
+    padding: 6px 8px;
+    margin-left: -11px;
+}
+.data label {
+    width: 30%;
+    font-family: sans-serif;
+    text-align: right; 
+    margin-right: 40px;
+    font-size: 1em;
+}
+.data input[type="checkbox"]{
+    display: inline;
+    margin-right: 15px;
+}
+.data:nth-last-child {
+    width: 100%;
+}
+.faq {
+    width: 600px;
+    margin: 30px 593px;
+    margin-right: 100px;
+}
+.faq p:nth-child(1) {
+    font-style: italic;
+    font-size: 14px;
+    color: #26468F;
+    text-decoration: underline;
+}
+.faq p:nth-child(2) {
+    margin-left: -15px;
+}
+.faq p:nth-child(5) {
+    font-size: 13px;
+    font-style: oblique;
+    color: #838381;
+    margin-top: 20px;
+}
+.faq p:nth-child(3){
+    margin-left: 24px;
+    margin-top: -18px;
+    font-family: sans-serif;
+    text-align: left; 
+    font-style: oblique;
+}
+.faq input [type="checkbox"] {
+    width: 100%;
+    display: block;
+}
+.faq button {
+    background-color: #26468F;
+    border: 0px;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+/*end*/
+
+/*langkah*/
+.langkah {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: #f7f6f4;
+}
+.langkah h5 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+}
+.langkah span {
+    color: #26468F;
+}
+.langkah img{
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+/*end*/
+
+
+/*Footer*/
+footer {
+    background-color: #26468F;
+    display: relative;
+    margin-top: 10px;
+}
+.cr {
+    color: white;
+    margin-left: 220px;
+}
+
+/*end*/
+
+
+
